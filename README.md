@@ -1,27 +1,35 @@
-# Hanne - Personal Portfolio & Blog
+# Welcome to Hanne's Portfolio
 
-A personal website built with GitHub Pages featuring my bio, projects, and technical blog posts about software engineering, cryptography, and cybersecurity.
+## About Me
 
-🔗 **Live Site:** https://yourusername.github.io/
+Hi, I'm Hanne, a third-year software engineering student at Howest in Belgium. I'm passionate about UI/UX design, web development, and cybersecurity. Currently diving deep into applied cryptography, digital forensics, and building secure applications.
 
-## About This Site
+When I'm not coding, you'll find me baking, singing in choir, or creating illustrations.
 
-This website serves as my professional portfolio and technical blog, created as part of my Applied Cryptography coursework. It showcases my interests in software engineering, UI/UX design, web development, and cybersecurity.
+## Interests & Skills
 
-## Features
+- **Cybersecurity**: Cryptography, digital forensics, network security
+- **Development**: Flutter/Dart, Python, C#, JavaScript
+- **Design**: Figma, Adobe Illustrator, UI/UX principles
 
-- Clean, professional design using Jekyll
-- Personal bio and introduction
-- Links to GitHub and LinkedIn profiles
-- Technical blog with posts about cryptography and security topics
-- Responsive layout for mobile and desktop
+## Connect With Me
 
-## Built With
+- 🔗 [GitHub](# Welcome to Hanne's Portfolio
 
-- **GitHub Pages** - Hosting platform
-- **Jekyll** - Static site generator
-- **Markdown** - Content formatting
-- **HTML/CSS** - Custom styling
+## About Me
 
-## Project Structure
+Hi, I'm Hanne, a third-year software engineering student at Howest in Belgium. I'm passionate about UI/UX design, web development, and cybersecurity. Currently diving deep into applied cryptography, digital forensics, and building secure applications.
 
+When I'm not coding, you'll find me baking, singing in choir, or creating illustrations.
+
+## Interests & Skills
+
+- **Cybersecurity**: Cryptography, digital forensics, network security
+- **Development**: Flutter/Dart, Python, C#, JavaScript
+- **Design**: Figma, Adobe Illustrator, UI/UX principles
+
+## Connect With Me
+
+- 🔗 [GitHub]([(https://github.com/HanneVanhoutte2)])
+- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
+)
