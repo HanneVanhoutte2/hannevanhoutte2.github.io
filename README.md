@@ -15,6 +15,5 @@ When I'm not coding, you'll find me baking, or creating illustrations.
 ## Connect With Me
 
 - 🔗 [GitHub](https://github.com/HanneVanhoutte2)
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
 
 
