@@ -1,6 +1,3 @@
-theme: jekyll-theme-minimal
-title: Hanne's homepage
-description: Bookmark this to keep an eye on my project updates!
 # Hanne - Personal Portfolio & Blog
 
 A personal website built with GitHub Pages featuring my bio, projects, and technical blog posts about software engineering, cryptography, and cybersecurity.
