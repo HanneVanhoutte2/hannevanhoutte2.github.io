@@ -1,0 +1,155 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1 {
+  color: #2c3e50;
+  border-bottom: 1rem solid #3498db;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5em;
+  border-left: 4px solid #3498db;
+  padding-left: 12px;
+}
+
+/* Paragraph Styling */
+p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Link Styling */
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: #2980b9;
+  border-bottom: 1px solid #2980b9;
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+ul li:before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #3498db;
+  font-weight: bold;
+}
+
+/* Connect Section Links */
+h2 + ul li a {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+/* Blog Post List Styling */
+section > ul > li {
+  background: #f8f9fa;
+  border-left: 4px solid #3498db;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section > ul > li:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section > ul > li:before {
+  content: none;
+}
+
+section > ul > li strong a {
+  color: #2c3e50;
+  font-size: 1.2em;
+  border-bottom: none;
+}
+
+section > ul > li strong a:hover {
+  color: #3498db;
+}
+
+section > ul > li small {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+section > ul > li p {
+  margin-top: 10px;
+  color: #555;
+  text-align: left;
+}
+
+/* Section Styling */
+section {
+  padding: 20px 0;
+}
+
+/* View All Posts Link */
+section > p:last-child {
+  text-align: center;
+  margin-top: 30px;
+}
+
+section > p:last-child a {
+  background: #3498db;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+section > p:last-child a:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+  }
+  
+  section > ul > li {
+    padding: 12px;
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanne Vanhoutte -  Github Pages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+  <h1>Quantum-Resistant Cryptography: Understanding Post-Quantum Security</h1>
+
+  <p>
+    Quantum-resistant cryptography, also known as post-quantum cryptography (PQC), refers to the development of cryptographic algorithms designed to remain secure against attacks from both classical and quantum computers. Unlike current encryption methods that rely on mathematical problems easily solved by quantum computers, these new algorithms are built on computational challenges that remain difficult even for quantum systems.<br>
+  </p>
+
+  <h2>The Quantum Threat to Current Encryption</h2>
+  <p>
+    The most widely used public-key algorithms today rely on the computational difficulty of three main mathematical problems: integer factorisation, discrete logarithm, and elliptic-curve discrete logarithm. While these problems would take classical supercomputers thousands of years to solve, a sufficiently powerful quantum computer running Shor's algorithm could break them in mere days or even hours.<br>
+    This threat isn't just theoretical or distant. Adversaries are already harvesting encrypted data today through "harvest now, decrypt later" attacks—storing intercepted communications to decrypt once quantum computers become available. This is particularly concerning for sectors requiring long-term confidentiality, such as government secrets, healthcare records, military communications, and critical infrastructure data.
+  </p>
+
+  <h2>How Quantum-Resistant Algorithms Work</h2>
+  <p>
+    Rather than relying on factorisation or discrete logarithms, quantum-resistant algorithms use alternative mathematical structures that quantum computers struggle to solve efficiently. These include lattice-based problems, hash functions, error-correcting codes, multivariate quadratic equations, and isogeny-based cryptography.<br>
+    Lattice-based cryptography is a problem with no known efficient quantum solution. Hash-based cryptography uses one-way cryptographic hash functions that are inherently resistant to quantum attacks because quantum computers provide no meaningful advantage in reversing them.
+  </p>
+
+  <h2>NIST Standardisation Efforts</h2>
+  <p>
+    In July 2022, the National Institute of Standards and Technology (NIST) announced the first four quantum-resistant cryptographic algorithms as official standards. For general encryption used in securing website communications, NIST selected CRYSTALS-Kyber, which offers comparatively small encryption keys that can be easily exchanged and operate at high speed. These algorithms were developed through international collaboration and represent years of rigorous cryptanalytic testing.<br>
+    NIST's standards aim to develop cryptographic systems that are secure against both quantum and classical computers while remaining compatible with existing communications protocols and networks. Additional algorithms continue to be evaluated, with NIST maintaining an ongoing standardisation process.
+  </p>
+
+  <h2>The Urgency of Transition</h2>
+  <p>
+    While large-scale cryptographically relevant quantum computers may still be years away, the transition to quantum-resistant cryptography cannot wait. The complexity of upgrading global cryptographic infrastructure, combined with the current threat of data harvesting, means organisations must begin implementing quantum-safe solutions now. Adopting crypto-agility allows organisations to experiment with PQC while maintaining regulatory compliance with current standards.<br>
+    The move to quantum-resistant cryptography represents one of the most significant cryptographic transitions in modern computing history, protecting the confidentiality and integrity of digital communications for decades to come.
+  </p>
+</section>
+</body>
+</html>
+
